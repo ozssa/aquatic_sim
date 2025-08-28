@@ -1,0 +1,33 @@
+# === Python build/cache ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# === Virtual Environment ===
+venv/
+.env/
+ENV/
+.venv/
+
+# === OS/System files ===
+.DS_Store
+Thumbs.db
+
+# === IDE/editor ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === Logs & temp ===
+*.log
+*.tmp
+*.bak
+
+# === Jupyter Notebooks checkpoints (kalau ada) ===
+.ipynb_checkpoints/
+
+# === Generated outputs ===
+assets/output/
